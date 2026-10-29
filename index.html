@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f5f7">
+  <meta name="description" content="Andi Yang, an HKU AI and Data Science student and independent developer. Native Apple apps, web development, research, and curriculum vitae.">
+  <title>Andi Yang · Apps & Development</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23141620'/%3E%3Ctext x='4' y='23' fill='%23f4f5f7' font-family='Arial,sans-serif' font-weight='bold' font-size='18'%3EAY%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="wordmark" href="#main" aria-label="Andi Yang, back to introduction">AY</a>
+      <nav aria-label="Main navigation">
+        <a href="#work" data-section="work"><span class="nav-number" aria-hidden="true">01</span>Work</a>
+        <a href="#resume" data-section="resume"><span class="nav-number" aria-hidden="true">02</span>Résumé</a>
+        <a href="#outside" data-section="outside"><span class="nav-number" aria-hidden="true">03</span>Personal</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero wrap" aria-labelledby="intro-title">
+      <h1 id="intro-title">Andi <span>Yang</span></h1>
+      <div class="hero-bottom">
+        <div class="hero-summary"><h2>Apple apps &amp; <br>web development</h2><p>Hong Kong</p></div>
+        <div class="hero-description"><p>I build native Apple apps and websites. I’m a second-year AI &amp; Data Science student at the University of Hong Kong.</p><div class="actions"><a class="inline-link" href="#work">View work</a><a class="inline-link" href="#resume">Read résumé</a><a class="inline-link" href="#contact">Contact</a></div></div>
+      </div>
+    </section>
+    <section class="work-section wrap" id="work" aria-labelledby="work-title">
+      <div class="section-heading"><span class="section-number" aria-hidden="true">01</span><h2 id="work-title">Work</h2></div>
+      <article class="project" aria-labelledby="jaunty-title">
+        <div class="project-copy">
+          <div><p class="eyebrow">iPhone &amp; Apple Watch</p><h3 id="jaunty-title">Jaunty</h3></div>
+          <p class="project-description">A student timetable app that turns screenshots into an editable schedule.</p>
+          <p class="project-intro">Built for students in Hong Kong, with class information available on iPhone and Apple Watch.</p>
+          <div class="actions project-actions"><a class="button" href="https://jauntyhk.app/en/" target="_blank" rel="noopener">Visit Jaunty<span class="sr-only"> (opens in a new tab)</span></a><a class="inline-link" href="https://apps.apple.com/hk/app/jaunty-student-timetable/id6811979809" target="_blank" rel="noopener">App Store<span class="sr-only"> (opens in a new tab)</span></a></div>
+          <dl class="project-facts"><div><dt>Role</dt><dd>Independent developer</dd></div><div><dt>Platforms</dt><dd>iOS &amp; watchOS</dd></div><div><dt>Approach</dt><dd>Free, with no ads or Jaunty account</dd></div></dl>
+        </div>
+        <div class="project-visual" id="jaunty-preview">
+          <div class="visual-caption"><span class="jaunty-mark"><img src="/assets/jaunty-icon.png" alt="Jaunty" width="1024" height="1024"></span><span>Explore the app</span></div>
+          <div class="preview-tabs" role="tablist" aria-label="Jaunty app previews" hidden>
+            <button id="tab-week" role="tab" type="button" aria-controls="view-week" aria-selected="true">Week</button>
+            <button id="tab-import" role="tab" type="button" aria-controls="view-import" aria-selected="false" tabindex="-1">Import</button>
+            <button id="tab-watch" role="tab" type="button" aria-controls="view-watch" aria-selected="false" tabindex="-1">Watch</button>
+          </div>
+          <div class="preview-panels">
+            <section class="preview-panel" id="view-week" aria-label="Week preview">
+              <div class="preview-copy"><h4>Week view</h4><p>See classes, times and rooms together, including waitlisted and dropped courses.</p><p class="preview-note">Fictional timetable. Real Jaunty screen.</p></div>
+              <div class="preview-media"><a class="screen-link iphone-device" data-interface data-screen-title="Jaunty · Week view" href="/assets/jaunty-en-week-dark.webp" target="_blank" rel="noopener" aria-label="Enlarge the Jaunty week view"><img src="/assets/jaunty-en-week-dark.webp" width="1206" height="2622" alt="Jaunty’s weekly timetable with colour-coded classes, rooms and course states." loading="lazy" decoding="async"></a><a class="visual-footnote" data-interface data-screen-title="Jaunty · Week view" data-screen-alt="Jaunty’s weekly timetable with colour-coded classes, rooms and course states." href="/assets/jaunty-en-week-dark.webp" target="_blank" rel="noopener">Enlarge screenshot<span class="sr-only"> (opens an image preview or a new tab)</span></a></div>
+            </section>
+            <section class="preview-panel" id="view-import" aria-label="Import preview">
+              <div class="preview-copy"><h4>Check before saving</h4><p>Import timetable screenshots, review the draft and correct course details before adding them to your week.</p><div class="source-example"><span>Example timetable</span><p><strong>ARTS1001</strong><br>Monday · 09:30–11:20 · ST-101</p></div><p class="preview-note">Shared review screen. This example uses Just Tell Me; screenshot import uses the same review controls.</p></div>
+              <div class="preview-media"><a class="screen-link iphone-device" data-interface data-screen-title="Jaunty · Course review" href="/assets/jaunty-en-import-dark.webp" target="_blank" rel="noopener" aria-label="Enlarge the Jaunty course review screen"><img src="/assets/jaunty-en-import-dark.webp" width="1206" height="2622" alt="Jaunty’s course review screen showing an example course and its class details." loading="eager" decoding="async"></a><a class="visual-footnote" data-interface data-screen-title="Jaunty · Course review" data-screen-alt="Jaunty’s course review screen showing an example course and its class details." href="/assets/jaunty-en-import-dark.webp" target="_blank" rel="noopener">Enlarge screenshot<span class="sr-only"> (opens an image preview or a new tab)</span></a></div>
+            </section>
+            <section class="preview-panel" id="view-watch" aria-label="Watch preview">
+              <div class="preview-copy"><h4>Next class on your wrist</h4><p>The Apple Watch companion shows the next class, its time and room. It keeps the last received timetable available offline.</p><p class="preview-note">Apple Watch companion. Fictional timetable.</p></div>
+              <div class="preview-media"><a class="screen-link watch-screen" data-interface data-screen-title="Jaunty · Apple Watch" href="/assets/jaunty-en-watch-dark.webp" target="_blank" rel="noopener" aria-label="Enlarge the Jaunty Apple Watch screen"><img src="/assets/jaunty-en-watch-dark.webp" width="416" height="496" alt="Jaunty on Apple Watch showing the next course, its time and room." loading="eager" decoding="async"></a><a class="visual-footnote" data-interface data-screen-title="Jaunty · Apple Watch" data-screen-alt="Jaunty on Apple Watch showing the next course, its time and room." href="/assets/jaunty-en-watch-dark.webp" target="_blank" rel="noopener">Enlarge screenshot<span class="sr-only"> (opens an image preview or a new tab)</span></a></div>
+            </section>
+          </div>
+        </div>
+        <div class="project-notes" id="jaunty-notes">
+          <div><h4>Building Jaunty</h4><p>I built Jaunty around the timetable I used as a student. Friends began using it too, which led me to continue developing the app as an independent developer.</p></div>
+          <div><h4>From screenshot to timetable</h4><p>On-device text recognition reads timetable screenshots. A review step gives users a chance to check and correct the draft before it becomes part of their schedule. Optional on-device AI can assist on supported devices. Timetable data stays on the device, with optional private iCloud sync.</p></div>
+          <p class="project-stack"><span>Built with</span> Swift · SwiftUI · SwiftData · CloudKit · Apple Vision · Foundation Models · WidgetKit · ActivityKit</p>
+        </div>
+      </article>
+    </section>
+    <section class="resume-section" id="resume" aria-labelledby="resume-title">
+      <div class="wrap">
+        <div class="section-heading"><span class="section-number" aria-hidden="true">02</span><h2 id="resume-title">Résumé</h2></div>
+        <div class="resume-content">
+          <section class="resume-group" aria-labelledby="education-title">
+            <h3 id="education-title">Education</h3>
+            <div class="group-body">
+              <article class="entry"><div class="entry-heading"><h4>The University of Hong Kong</h4><p class="date">2025–2029 <span>(expected)</span></p></div><p class="entry-title">Bachelor of Engineering in Artificial Intelligence and Data Science</p><p>Year 2 · Cumulative GPA: 3.64 / 4.30 <span class="detail">(Year 1, 2025–26)</span></p></article>
+              <article class="entry"><div class="entry-heading"><h4>Pui Kiu College</h4><p class="date">2019–2025</p></div><p>HKDSE: 5** in ICT and Biology; 5* in English; 5 in Chemistry.</p></article>
+            </div>
+          </section>
+          <section class="resume-group" aria-labelledby="experience-title">
+            <h3 id="experience-title">Experience</h3>
+            <div class="group-body">
+              <article class="entry"><div class="entry-heading"><h4>Freelance HKDSE / IELTS Tutor</h4><p class="date">Jul 2025–present</p></div><p class="entry-title">Self-employed</p><p>Tutored approximately 20 students and adult IELTS learners. Developed personalised notes and mock papers, and supported IELTS learners in progressing from Band 5 to Band 7.</p></article>
+              <article class="entry"><div class="entry-heading"><h4>Winter Intern</h4><p class="date">Dec 2025–Jan 2026</p></div><p class="entry-title">iClass</p><p>Prepared teaching materials for HKDSE ICT textbooks.</p></article>
+              <article class="entry"><div class="entry-heading"><h4>Conference Presenter</h4><p class="date">2023</p></div><p class="entry-title">5th International Tourism and Retail Service Management Conference</p><p>Presented “Towards an Understanding of Customer Experiences with ChatGPT in Tourism” with Kelan Ye.</p></article>
+            </div>
+          </section>
+          <section class="resume-group" aria-labelledby="research-title">
+            <h3 id="research-title">Research</h3>
+            <div class="group-body">
+              <article class="entry publication"><p class="publication-meta">Published · 2026</p><h4><a href="https://doi.org/10.1016/j.tourman.2025.105273" target="_blank" rel="noopener">Communication modality, authenticity, and continuance usage intention of GenAI chatbots: A media richness theory perspective<span class="sr-only"> (opens DOI in a new tab)</span></a></h4><p class="detail">Yang, H., Song, H., Zhang, Y., Ma, E., &amp; Yang, A. (2026). <cite>Tourism Management, 112</cite>, Article 105273.</p></article>
+              <article class="entry publication"><p class="publication-meta">Published · 2024</p><h4><a href="https://doi.org/10.1080/19368623.2024.2308531" target="_blank" rel="noopener">Understanding the consequences of robotic interaction quality and outcome quality: A three-phased affordance theory-based approach<span class="sr-only"> (opens DOI in a new tab)</span></a></h4><p class="detail">Yang, H., Song, H., Xia, L., &amp; Yang, A. (2024). <cite>Journal of Hospitality Marketing &amp; Management, 33</cite>(6), 763–783.</p></article>
+              <article class="entry publication"><p class="publication-meta">Manuscript under review · 2026</p><h4>Mega-influencer, authenticity, influence, and visit intention: Moderators of influencer-destination collaboration and content benefit appeal</h4><p class="detail">Yang, H., Song, H., Xia, L., &amp; Yang, A. · <cite>Journal of Travel &amp; Tourism Marketing</cite>.</p></article>
+            </div>
+          </section>
+          <section class="resume-group" aria-labelledby="skills-title">
+            <h3 id="skills-title">Technical skills</h3>
+            <div class="skills-grid group-body">
+              <div><h4>Programming &amp; interfaces</h4><p>Swift &amp; SwiftUI, Python, R, JavaScript, C++, SQL, HTML/CSS, Svelte, and Node.js. App development for iOS, macOS, and visionOS.</p></div>
+              <div><h4>Data &amp; machine learning</h4><p>pandas, NumPy, Matplotlib, Jupyter, scikit-learn, TensorFlow, and PyTorch.</p></div>
+              <div><h4>Databases &amp; backend</h4><p>Supabase, PostgreSQL, MySQL, SQLite, REST APIs, and authentication workflows.</p></div>
+              <div><h4>Tools &amp; practices</h4><p>Git, GitHub, Xcode, Docker, Linux, shell scripting, debugging, and technical documentation.</p></div>
+              <section class="ai-development" aria-labelledby="ai-development-title">
+                <h4 id="ai-development-title">AI-assisted development</h4>
+                <p class="ai-intro">Use coding agents to explore repositories, plan changes, implement features, debug and refine interfaces. Supply project requirements and relevant context throughout the workflow.</p>
+                <div class="ai-details">
+                  <div class="ai-capabilities" aria-label="Additional capabilities"><span>Context engineering</span><span>MCP integration</span></div>
+                  <div><h5>Agent configuration and orchestration</h5><p>Configure reusable skills, prompt templates, hooks and plugins. Delegate distinct tasks to specialised subagents and review their findings together.</p></div>
+                  <div><h5>Code review and verification</h5><p>Use Codex code review alongside personal review. Check changes against requirements, investigate test and regression feedback, and monitor token usage and cost.</p></div>
+                  <div class="ai-coding-tools"><h5>AI coding tools</h5><p>ChatGPT, OpenAI Codex, Claude Code, DeepSeek Harness, ZCode, Cursor, OpenCode, Pi and WorkBuddy.</p></div>
+                </div>
+              </section>
+            </div>
+          </section>
+          <section class="resume-group" aria-labelledby="activities-title">
+            <h3 id="activities-title">Beyond coursework</h3>
+            <div class="group-body"><p>Former Chairperson of Pui Kiu College’s Japanese Culture Club and Vice-Chairman of Multimedia Production (2023–24). Member of HKU’s Computer Science Association, Engineering Society, and Japanese Society.</p><p class="language-line"><span>Languages</span> Cantonese &amp; Mandarin (native), English (fluent; IELTS 8.0), and conversational Japanese.</p></div>
+          </section>
+        </div>
+      </div>
+    </section>
+    <section class="outside-section wrap" id="outside" aria-labelledby="outside-title">
+      <div class="section-heading"><span class="section-number" aria-hidden="true">03</span><h2 id="outside-title">Personal</h2></div>
+      <div class="outside-copy"><p>Outside development and coursework, I enjoy photography, playing bass and listening to music.</p></div>
+    </section>
+  </main>
+  <footer class="site-footer" id="contact">
+    <div class="wrap">
+      <div class="footer-main"><div><p class="eyebrow">Contact</p><a class="contact-link" href="mailto:yang.andi@connect.hku.hk">yang.andi@<wbr>connect.hku.hk</a>
+        <nav class="social-links" aria-label="Social profiles">
+          <a href="https://www.linkedin.com/in/andi-yang-91bb10379/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.45 2H3.55C2.7 2 2 2.67 2 3.5v17c0 .83.7 1.5 1.55 1.5h16.9c.86 0 1.55-.67 1.55-1.5v-17c0-.83-.69-1.5-1.55-1.5ZM7.93 18.75H4.97V9.2h2.96v9.55ZM6.45 7.9a1.72 1.72 0 1 1 0-3.44 1.72 1.72 0 0 1 0 3.44Zm12.3 10.85h-2.96V14.1c0-1.11-.02-2.54-1.55-2.54-1.55 0-1.79 1.21-1.79 2.46v4.73H9.49V9.2h2.84v1.3h.04a3.11 3.11 0 0 1 2.8-1.54c3 0 3.58 1.98 3.58 4.56v5.23Z"/></svg><span>LinkedIn</span></a>
+          <a href="https://x.com/andi_Y_114"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.9 2H22l-6.78 7.75L23.2 22h-6.25l-4.9-6.4L6.45 22H3.32l7.25-8.29L2.9 2h6.4l4.43 5.86L18.9 2Zm-1.1 18h1.73L8.36 3.9H6.5L17.8 20Z"/></svg><span>X</span></a>
+          <a href="https://github.com/yangandi114"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.54v-2.12c-3.09.67-3.74-1.31-3.74-1.31-.5-1.28-1.23-1.62-1.23-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.7 2.6 1.21 3.23.93.1-.72.39-1.21.7-1.49-2.46-.28-5.05-1.23-5.05-5.49 0-1.21.43-2.2 1.14-2.98-.12-.28-.49-1.41.11-2.94 0 0 .93-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.12-1.43 3.05-1.14 3.05-1.14.6 1.53.23 2.66.11 2.94.71.78 1.14 1.77 1.14 2.98 0 4.27-2.6 5.2-5.07 5.48.4.35.75 1.02.75 2.06v3.09c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg><span>GitHub</span></a>
+        </nav></div></div>
+      <div class="footer-bottom"><a class="wordmark" href="#main" aria-label="Andi Yang, back to top">AY</a><p>Andi Yang · Hong Kong</p><a class="inline-link" href="#main">Back to top</a></div>
+    </div>
+  </footer>
+  <dialog id="interface-dialog" aria-labelledby="interface-title">
+    <div class="dialog-header"><h2 id="interface-title">Jaunty · Week view</h2><button id="close-interface" type="button">Close</button></div>
+    <div class="dialog-image"><img id="interface-image" src="/assets/jaunty-en-week-dark.webp" loading="lazy" alt="Jaunty’s weekly timetable with colour-coded classes, rooms and course states."></div>
+  </dialog>
+</body>
+</html>
